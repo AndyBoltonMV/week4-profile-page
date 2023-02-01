@@ -1,13 +1,19 @@
+body {
+  padding: 0;
+}
+
 nav ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
   padding: 0;
   background-color: #020202;
+  width: 100vw;
 }
 
 li {
   list-style: none;
+  width: 25%;
+  text-align: center;
 }
 
 a {
@@ -32,4 +38,8 @@ footer {
   text-align: center;
   background-color: #020202;
   color: #f2f2f2;
+}
+
+#demo {
+  width: 100vw;
 }
